@@ -108,7 +108,6 @@ impl<'a> From<&'a PackageConfig> for ServiceParams {
     fn from(package: &'a PackageConfig) -> Self {
         Self {
             description: package.description.to_owned(),
-            /// TODO: better handling of target binaries and their paths
             bin_path: PathBuf::from("/usr/sbin").join(&package.rpm_name()),
         }
     }

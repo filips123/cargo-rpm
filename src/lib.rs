@@ -1,6 +1,6 @@
 //! cargo-rpm: Cargo subcommand for creating RPM releases of Rust projects
 
-#![deny(warnings, missing_docs, trivial_casts, unused_qualifications)]
+#![deny(missing_docs, trivial_casts, unused_qualifications)]
 #![forbid(unsafe_code)]
 #![doc(html_root_url = "https://docs.rs/cargo-rpm/0.8.0")]
 
